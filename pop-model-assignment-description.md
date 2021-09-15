@@ -6,6 +6,11 @@ Population models can take many forms, but with populations we classify as age/s
 
 The northern right whale (*Eubalaena glacialis*) is one of the most critically endangered cetacean species on the planet. Previously very abundant, they suffered massive population decline as a result of over-harvesting in the 19th century. They have been of interest from a conservation perspective for decades, and in a widely-cited paper, [Fujiwara & Casswell (Nature 2001)](https://www.nature.com/articles/35107054) estimated their demographic rates and built a matrix model for the species. 
 
+The life-cycle graph for the female whales is considered here: 
+![Description \label{life-cycle}](images/female-life-cycle.png)
+
+
+
 # Submission Details
 
 For this assignment, you will use GitHub classroom to track changes to your code and your writing, and submit the assingment. Open this link to accept the assignment and create a private repository for your code & submission for this assignment in GitHub classroom. 
