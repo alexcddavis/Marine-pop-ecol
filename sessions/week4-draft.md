@@ -1,0 +1,23 @@
+---
+layout: single
+author_profile: false
+title: "Introduction to R"
+#header:
+    #og_image: /assets/images/cross-val-logo-v4.jpg
+    #overlay_image: /assets/images/joel-filipe-small-warmer.jpg
+    #caption: "Photo by [Joel Filipe](https://unsplash.com/@joelfilip) on [Unsplash](https://unsplash.com)"
+classes: wide
+
+sidebar:
+  nav: "sessions"
+
+---
+
+## Week 4
+
+
+
+Please [click here](https://forms.gle/Ztt28nt6Uz8ZLLq66) to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!
+
+
+After the session, there will be a static page here with a full summary of what was learned this week:

@@ -1,0 +1,51 @@
+main:
+  - title: "Syllabus"
+    url: /syllabus/
+  - title: "Instructors"
+    url: /instructors/
+  - title: "Contact Us"
+    url: /contact/
+  - title: "Resources"
+    url: /resources/
+
+sessions:
+  - title: Week 1
+    children:
+      - title: "Set up, Goals, Important Topics"
+        url: /sessions/week1/
+      - title: "Object Oriented Programming (OOP)"
+        url: /sessions/week1/
+      - title: "Types, Assignment, Indexing"
+        url: /sessions/week1/
+
+  - title: Week 2
+    children:
+      - title: "If-statements"
+        url: /sessions/week2/
+      - title: "Loops"
+        url: /sessions/week2/
+      - title: "Functions"
+        url: /sessions/week2/
+
+  - title: Week 3
+    children:
+      - title: "Reproducible Science"
+        url: /sessions/week3/
+      - title: "Data Cleaning Process"
+        url: /sessions/week3/
+      - title: "How to Clean Data"
+        url: /sessions/week3/
+
+  - title: Week 4
+    children:
+      - title: "BaseR Plotting"
+        url: /sessions/week4/
+      - title: "Intro to `ggplot()`"
+        url: /sessions/week4/
+      - title: "Cornerstone Plot Types"
+        url: /sessions/week4/
+
+  - title: Week 5
+    children:
+      - title: "Wrap-up activity"
+        url: /sessions/week5/
