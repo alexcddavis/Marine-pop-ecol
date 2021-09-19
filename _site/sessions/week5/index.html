@@ -1,0 +1,551 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Introduction to R - Introduction to Programming in R for Biology</title>
+<meta name="description" content="Website for the Fall 2020 workshop series on Introduction to Programming in R for Biology, being run by Cole Brookson &amp; Emma Atkinson at the University of Alberta, department of Biological Sciences.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Introduction to Programming in R for Biology">
+<meta property="og:title" content="Introduction to R">
+<meta property="og:url" content="http://localhost:4000/sessions/week5/">
+
+
+  <meta property="og:description" content="Website for the Fall 2020 workshop series on Introduction to Programming in R for Biology, being run by Cole Brookson &amp; Emma Atkinson at the University of Alberta, department of Biological Sciences.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/sessions/week5/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Introduction to Programming in R for Biology Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Introduction to Programming in R for Biology
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/syllabus/">Syllabus</a>
+            </li><li class="masthead__menu-item">
+              <a href="/instructors/">Instructors</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact Us</a>
+            </li><li class="masthead__menu-item">
+              <a href="/resources/">Resources</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 1</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week1/">Set up, Goals, Important Topics</a></li>
+          
+            <li><a href="/sessions/week1/">Object Oriented Programming (OOP)</a></li>
+          
+            <li><a href="/sessions/week1/">Types, Assignment, Indexing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 2</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week2/">If-statements</a></li>
+          
+            <li><a href="/sessions/week2/">Loops</a></li>
+          
+            <li><a href="/sessions/week2/">Functions</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 3</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week3/">Reproducible Science</a></li>
+          
+            <li><a href="/sessions/week3/">Data Cleaning Process</a></li>
+          
+            <li><a href="/sessions/week3/">How to Clean Data</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 4</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week4/">BaseR Plotting</a></li>
+          
+            <li><a href="/sessions/week4/">Intro to `ggplot()`</a></li>
+          
+            <li><a href="/sessions/week4/">Cornerstone Plot Types</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 5</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week5/" class="active">Wrap-up activity</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Introduction to R">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/sessions/week5/" class="u-url" itemprop="url">Introduction to R
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="week-5">Week 5</h2>
+
+<p><strong>ZOOM LINK:</strong> <a href="https://ualberta-ca.zoom.us/j/97755262261">https://ualberta-ca.zoom.us/j/97755262261</a></p>
+
+<p>Well, you made it! This is the last session of the workshop series. We would very much have liked to do this workshop especially in person, as getting feedback/help in person is by far more useful. However, it wasn’t to be for us this year, so we’ll be offering this final exercise work-sheet as a remote delivery.</p>
+
+<p>You will have received a dataset that goes along with this set of questions. This is a novel dataset that we haven’t worked with yet in previous sessions. Using this dataset, you can walk through the below questions that will let you apply what you’ve learned in class to somewhat novel problems. Obviously there is no requirement that you do this, but practicing coding in R is the only way you will truly learn the language. To help you through this set of questions, our live session on Nov. 04 will be a drop-in help session. We encourage you to get started on these questions as soon as you can after Session 4 on plotting is wrapped up.</p>
+
+<p>Below are the questions as well as a set of answers that don’t tell you how to do the problem, but do let you check if you’re on the right track. Once you think you’ve completed the question, check your answer against the answer key. Set yourself a frustration threshold, and if you cannot get the right answer, only work on the problem until you’ve reached your threshold. If you can’t get the problem (some of them are meant to be tricky, because a lot of real-world data problems ARE tricky), then bring your problem to the live session next week and both Cole &amp; Emma will be available to help you.</p>
+
+<p>By Sunday, Nov. 08, there will be a series of videos posted here on the website which walk you through how to do each question in detail. We encourage you to try all the problems yourself beforehand, and then use the videos to either double check your approach or if you couldn’t solve the problem.</p>
+
+<p>You can also reach out to us via the <a href="/Contact/">contact</a> tab and we can try to help you via email.</p>
+
+<p>Good luck, and thanks for a great series!</p>
+
+<p><strong>Question 1. Perform basic data manipulation tasks.</strong></p>
+
+<p>Note that we didn’t go over how to rename columns in our session on data management, as we already had a lot to cover, but this is a common task. We’ll briefly cover it here, but this is also a very google-able problem. To rename a column, we use the a familiar structure. The following function will do the trick:</p>
+
+<p><code class="language-plaintext highlighter-rouge">names(DATAFRAME_NAME)[names(DATAFRAME_NAME) == “OLD_NAME”] = “NEW_NAME”</code></p>
+
+<p>This is calling the function names() which returns a vector of the names of the dataframe. Here we’re going into that vector, finding where it is equal to the value we’re looking for, and replacing it with our new value.</p>
+
+<p>Now onto the question. Each subpart of the question will tell you to do some small data management or manipulation task. Perform them in order, and pay special attention to the specifics of names.</p>
+
+<p>a) Load the dataset into R and call it ‘final_df’</p>
+
+<p>b) Rename the columns as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`State.Province` → `state_province`
+`temp..C` → `temp_C`
+`dia..cm.` → `diam_cm`
+`ht.cm.` → `ht_cm`
+`total..g.` → `total_g`
+`gonad.vol..ml.` → `gonad_vol_ml`
+`gonad.wt..g.` → `gonad_wt_g`
+`food.vol..ml.` → `food_vol_ml`
+`jaw.cm` → `jaw_cm`
+</code></pre></div></div>
+
+<p><strong>NOTE</strong>: it is <strong>bad</strong> practice to include variables whose names have both capitals as the first letter, and no capitals in the first letter. However, you will come across much more egregious sins in other people’s data. We have neglected to change them all to one type, as it is common you will work with datasets that do not follow best practices.</p>
+
+<p>c) What is the data type of the 4th and 7th columns respectively?</p>
+
+<p>d) Make a new dataframe with only the first 6 rows of ‘final_df’ and call it <code class="language-plaintext highlighter-rouge">subset_final</code>. What are the dimensions (number of rows and columns) of <code class="language-plaintext highlighter-rouge">subset_final</code></p>
+
+<p>e) How many entries are in ‘final_df’? (hint: an entry is the content of a single cell in a dataframe)</p>
+
+<p>f) What is the value of the cell in the 13th column in the 38th row?</p>
+
+<p><strong>Question 2. Clean data and remove obvious outliers</strong></p>
+
+<p>Here, we will follow a series of data manipulation steps, including making a new column and using our domain knowledge to remove outliers. A reminder that removing outliers is bad practice when those outliers constitute real data. However, thinking critically about the data at hand can allow us to remove values that have no possible place in biological reality, and thus can only occur as a result of human error. It is almost always best practice to remove values we know are erroneous on the part of the human collecting the data.</p>
+
+<p>a) Create a new empty column in the dataframe called <code class="language-plaintext highlighter-rouge">gonad_mass_ratio</code></p>
+
+<p>b) There are some observations in the dataframe where either <code class="language-plaintext highlighter-rouge">total_g</code> or <code class="language-plaintext highlighter-rouge">gonad_wt_g</code> or both were not recorded. Remove these records.</p>
+
+<p>c) Calculate the ratio for gonad mass/total mass. Use the <code class="language-plaintext highlighter-rouge">gonad_wt_g</code> and the <code class="language-plaintext highlighter-rouge">total_g</code> columns, and store the ratio for each individual in the <code class="language-plaintext highlighter-rouge">gonad_mass_ratio</code> column.</p>
+
+<p>d) Generate a simple histogram plot in base R to identify outliers. Recall that since we’re calculating the ratio of the mass of the gonad to the total mass of the organism, the ratio should always be &lt;1.0. The gonad, a subset of the whole organism, cannot weigh more than the total organism. Therefore, we can assume any values larger than 1.0 are some sort of error. It’s best we exclude them.</p>
+
+<p>e) Subset data to remove the outlier(s) from the data.</p>
+
+<p><strong>Question 3. Write a function called <code class="language-plaintext highlighter-rouge">get_mean_size()</code>to calculate the mean total mass of the urchins of a particular species in particular state or province:</strong></p>
+
+<ul>
+  <li>
+    <p>This function should have arguments for the state/province, the species, and the dataframe to perform the function on</p>
+  </li>
+  <li>
+    <p>The function should subset the original dataframe based on the state/province and species arguments given</p>
+  </li>
+  <li>
+    <p>The function should return the mean <code class="language-plaintext highlighter-rouge">total_g</code> column for the subset dataframe</p>
+  </li>
+</ul>
+
+<p><strong>Question 4. Create a dataframe called ‘loop_df’ that lists the mean total mass of the urchins of each species in each state/province.</strong></p>
+
+<p><strong>NOTE</strong>: This is the hardest question in this exercise set! Don’t be discouraged if the answer eludes you at first. The goal here is to get you thinking like a programmer and solving problems you may not have considered before, and so we are trying to push you out of your comfort zone a little bit. Embrace it, challenges are fun.</p>
+
+<p>To do this, build a nested for loop to populate a matrix with the mean mass for each species and each province/state, and then change the matrix into a dataframe. Make use of your function from the last question. For this question you will write a nested for loop (that is, a loop within a loop) that will populate a matrix via each iteration of the loop. A more detailed outline of the problem follows:</p>
+
+<ul>
+  <li>
+    <p>Initialize a matrix with the same number of rows as the number of species, and the same number of columns as the number of states/provinces– NOTE: this is a good way to speed up for loops by pre-generating your data structure outside the loop</p>
+  </li>
+  <li>
+    <p>Check that column <code class="language-plaintext highlighter-rouge">state_province</code> is of type character and column <code class="language-plaintext highlighter-rouge">Species</code> is of type character</p>
+  </li>
+  <li>
+    <p>Write a for loop to find each unique combination of column <code class="language-plaintext highlighter-rouge">state_province</code> and column <code class="language-plaintext highlighter-rouge">Species</code>. Make use of your function from the last question to calculate the mean mass (<code class="language-plaintext highlighter-rouge">total_g</code>) each unique combination, and put each value at the correct location in the matrix.</p>
+  </li>
+  <li>
+    <p>When building the matrix, ensure the species are the row values and the states/provinces are the column values</p>
+  </li>
+  <li>
+    <p><em>HINT</em>: think <strong>carefully</strong> about how you want to achieve this before you start actually coding it. Solve the problem by first solving the domain problem using normal words and writing pseudocode, as is given here in the skeleton of the for loop, then try to code it. That is to say, it is good practice to break up the problem into domain-specific and computer-specific components. Think critically and identify what you want the answer to produce and the broad steps required to achieve that without worrying about the programming specifics. Then, translate your general answer into a code-specific answer. While this may seem redundant, it will help you immensely.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  for each unique value in column C {
+      For each unique value in column D {
+
+        Use function from question 2) to populate matrix
+
+      }
+    }
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Turn the resulting matrix into a dataframe with the row names as the species names and the column names as the state/province names</p>
+  </li>
+</ul>
+
+<p><strong>NOTE</strong>: while writing a for loop may not be the optimal way of performing this particular operation in R, populating a matrix or vector inside some sort of loop structure is a common programming task that you should know how to do. The interested reader is encouraged to check out the documentation on the <code class="language-plaintext highlighter-rouge">apply()</code> functions in R for the most efficient looping behavior in R. However, note that for loops are nearly ubiquitous in programming and all lower-level languages (C#, C++, Java etc.) and the majority of higher-level languages (Python, Julia, Ruby etc.) use for loops.</p>
+
+<p><strong>Question 5. Plot your data! Create a point and line plot showing the mean mass of the urchins throughout the years in the dataset.</strong></p>
+
+<p>Here, what you will do is plot the average mass on the y-axis versus the year on the x-axis.</p>
+
+<p>To get you started, we’ve written the code for you to create a summarized dataframe that has only the variables <code class="language-plaintext highlighter-rouge">year</code>, <code class="language-plaintext highlighter-rouge">Country</code>, <code class="language-plaintext highlighter-rouge">state_province</code>, and <code class="language-plaintext highlighter-rouge">Species</code>, along with a variable we created: <code class="language-plaintext highlighter-rouge">mean_mass</code> which is the mean mass from the <code class="language-plaintext highlighter-rouge">total_g</code> column.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                summarized_data = do.call(rbind, by(final_df,
+                                                      final_df[, c('year', 'Country', 'state_province', 'Species')],
+                                    function(x) cbind(x[1, c('year', 'Country', 'state_province', 'Species')],
+                                                      mean_mass = mean(x$total_g, na.rm = TRUE))))
+</code></pre></div></div>
+
+<p>Copy and paste this code into your script and run it ahead of doing anything else. This code will only work if you’ve named the dataframe (final_df) and the columns as we’ve noted above. Do not worry too much about what the specific parts of this code are doing, unfortunately it is slightly beyond the scope of these workshops. Just know that if you have done your data cleaning properly, it will result in a dataframe (called <code class="language-plaintext highlighter-rouge">summarized_data</code>) that has 47 rows and 5 variables. For the interested reader, it is suggested you take the time to walk through the code and try and figure out what each part is doing with help from the documentation.</p>
+
+<p>Plot only the data for the species S. purpuratus in the country USA. (HINT: You’ll have to subset your dataframe <code class="language-plaintext highlighter-rouge">summarized_data</code> to do this.)</p>
+
+<p>Include the following components in your plot:</p>
+
+<ul>
+  <li>Separate the data by coloring two lines and the two sets of points according to the value of variable <code class="language-plaintext highlighter-rouge">state_province</code>
+    <ul>
+      <li>Colour ‘California’ blue and ‘Oregon’ green</li>
+    </ul>
+  </li>
+  <li>
+    <p>Employ the <code class="language-plaintext highlighter-rouge">theme_bw()</code> theme to make the plot look more professional</p>
+  </li>
+  <li>
+    <p>Label your x-axis “Sampling Year”, your y-axis “Mass of Organisms”, and the title “Mean Yearly Mass for all S. purpuratus Sampled in the USA”</p>
+  </li>
+  <li>Include a legend for the colours, with the legend title “State”</li>
+</ul>
+
+<p><em>BONUS:</em></p>
+
+<p>If you want, try and re-create the plot above, but do it using a function that takes an argument for the country and the species to use in the plot. <em>EXTRA BONUS</em>: If you’re feeling <strong>super</strong> adventurous, try and see if you can alter your plotting code such that the label of the country and the species name in the title of the plot change along with the arguments of the function.</p>
+
+<h1 id="answers-videos">Answers Videos</h1>
+
+<h2 id="question-1">Question 1</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/cU5qKuJ_Yg8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="question-2">Question 2</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/kwXKAv4sbcw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="question-3">Question 3</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/VQnjmnY-isc" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="question-4">Question 4</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/PJY-gEESFHc" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="question-5">Question 5</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/IF8ubu_8B1k" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="bonus-question">Bonus Question</h2>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/eU1tvC_yDhA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Introduction to Programming in R for Biology. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,465 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Introduction to R - Introduction to Programming in R for Biology</title>
+<meta name="description" content="Website for the Fall 2020 workshop series on Introduction to Programming in R for Biology, being run by Cole Brookson &amp; Emma Atkinson at the University of Alberta, department of Biological Sciences.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Introduction to Programming in R for Biology">
+<meta property="og:title" content="Introduction to R">
+<meta property="og:url" content="http://localhost:4000/sessions/week1/">
+
+
+  <meta property="og:description" content="Website for the Fall 2020 workshop series on Introduction to Programming in R for Biology, being run by Cole Brookson &amp; Emma Atkinson at the University of Alberta, department of Biological Sciences.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/sessions/week1/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Introduction to Programming in R for Biology Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Introduction to Programming in R for Biology
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/syllabus/">Syllabus</a>
+            </li><li class="masthead__menu-item">
+              <a href="/instructors/">Instructors</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact Us</a>
+            </li><li class="masthead__menu-item">
+              <a href="/resources/">Resources</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 1</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week1/" class="active">Set up, Goals, Important Topics</a></li>
+          
+            <li><a href="/sessions/week1/" class="active">Object Oriented Programming (OOP)</a></li>
+          
+            <li><a href="/sessions/week1/" class="active">Types, Assignment, Indexing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 2</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week2/">If-statements</a></li>
+          
+            <li><a href="/sessions/week2/">Loops</a></li>
+          
+            <li><a href="/sessions/week2/">Functions</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 3</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week3/">Reproducible Science</a></li>
+          
+            <li><a href="/sessions/week3/">Data Cleaning Process</a></li>
+          
+            <li><a href="/sessions/week3/">How to Clean Data</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 4</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week4/">BaseR Plotting</a></li>
+          
+            <li><a href="/sessions/week4/">Intro to `ggplot()`</a></li>
+          
+            <li><a href="/sessions/week4/">Cornerstone Plot Types</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Week 5</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sessions/week5/">Wrap-up activity</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Introduction to R">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/sessions/week1/" class="u-url" itemprop="url">Introduction to R
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="week-1">Week 1</h2>
+
+<p><strong>Zoom Link:</strong> <a href="https://ualberta-ca.zoom.us/j/97755262261">https://ualberta-ca.zoom.us/j/97755262261</a></p>
+
+<p>Welcome to the first week of content! Topics of this week will be an introduction to this series, an overview of Object-Oriented Programming (OOP) and some of the basic programming skills that will form the basis of what we’ll learn from here on out.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/gxQLZV-qdXw" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>Please watch the below videos <strong>before</strong> coming to the synchronous lecture - they are relatively short. Follow along when asked, and write down any questions or difficulties you have that we can discuss in lecture.</p>
+
+<h3 id="step-1---software-downloads">Step 1 - Software Downloads</h3>
+
+<p>Ah yes, the dreaded first step! Our first workshop is approaching, and to maximize our time together, we ask that you please come prepared with the necessary software downloaded. Please follow these instructions carefully and if you run into problems you can’t solve, please reach out and we’ll do our best to help you out.</p>
+
+<h4 id="windows">Windows</h4>
+<p>If you already have R and RStudio installed</p>
+<ul>
+  <li>Open RStudio, and click on “Help” &gt; “Check for updates”. If a new version is available, quit RStudio, and download the latest version for RStudio.</li>
+  <li>To check which version of R you are using, start RStudio and the first thing that appears in the console indicates the version of R you are running. Alternatively, you can type <code class="language-plaintext highlighter-rouge">sessionInfo()</code>, which will also display which version of R you are running. Go on the CRAN website and check whether a more recent version is available. If so, please download and install it. You can <a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f">check here</a> for more information on how to remove old versions from your system if you wish to do so.</li>
+</ul>
+
+<p>If you don’t have R and RStudio installed</p>
+<ul>
+  <li>Download R from the <a href="http://cran.r-project.org/bin/windows/base/release.htm">CRAN website</a>.</li>
+  <li>Run the <code class="language-plaintext highlighter-rouge">.exe</code> file that was just downloaded</li>
+  <li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+  <li>Under Installers select RStudio x.yy.zzz - Windows Vista/7/8/10 (where x, y, and z represent version numbers)</li>
+  <li>Double click the file to install it</li>
+  <li>Once it’s installed, open RStudio to make sure it works and you don’t get any error messages.
+    <h4 id="macos">macOS</h4>
+    <p>If you already have R and RStudio installed</p>
+  </li>
+  <li>Open RStudio, and click on “Help” &gt; “Check for updates”. If a new version is available, quit RStudio, and download the latest version for RStudio.</li>
+  <li>To check the version of R you are using, start RStudio and the first thing that appears on the terminal indicates the version of R you are running. Alternatively, you can type sessionInfo(), which will also display which version of R you are running. Go on the CRAN website and check whether a more recent version is available. If so, please download and install it.</li>
+</ul>
+
+<p>If you don’t have R and RStudio installed</p>
+<ul>
+  <li>Download R from the <a href="http://cran.r-project.org/bin/macosx/">CRAN website</a></li>
+  <li>Select the .pkg file for the latest R version</li>
+  <li>Double click on the downloaded file to install R</li>
+  <li>It is also a good idea to install <a href="https://www.xquartz.org/">XQuartz</a> (needed by some packages)</li>
+  <li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+  <li>Under Installers select RStudio x.yy.zzz - Mac OS X 10.6+ (64-bit) (where x, y, and z represent version numbers)</li>
+  <li>Double click the file to install RStudio</li>
+  <li>Once it’s installed, open RStudio to make sure it works and you don’t get any error messages.
+Linux</li>
+  <li>Follow the instructions for your distribution from <a href="https://cloud.r-project.org/bin/linux">CRAN</a>, they provide information to get the most recent version of R for common distributions. For most distributions, you could use your package manager (e.g., for Debian/Ubuntu run sudo apt-get install r-base, and for Fedora sudo yum install R), but we don’t recommend this approach as the versions provided by this are usually out of date. In any case, make sure you have at least R 3.3.1.</li>
+  <li>Go to the <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio download page</a></li>
+  <li>Under Installers select the version that matches your distribution, and install it with your preferred method (e.g., with Debian/Ubuntu sudo dpkg -i rstudio-x.yy.zzz-amd64.deb at the terminal).</li>
+  <li>Once it’s installed, open RStudio to make sure it works and you don’t get any error messages</li>
+</ul>
+
+<p>In future weeks, we’ll have a few videos for you to watch that have programming concepts or ideas presented, that we will then practice in our synchronous session. This week, we are just getting you set up to be ready to code, and we’ll do everything else together in our session! Looking forward to seeing you all soon!</p>
+
+<h3 id="introduction-to-this-series">Introduction to This Series</h3>
+
+<p>We want to give you an idea of what this series is for, and how to get the most out of it. Please watch this video where Emma will tell you about what you’ll learn and (maybe more importantly!) what you <strong>won’t</strong> learn.</p>
+
+<p><strong>THIS VIDEO WILL BE LIVE AFTER 12PM MT MONDAY, OCT. 05</strong></p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/iktRaJMu4gA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="using-rstudio">Using RStudio</h3>
+
+<p>In this video, Cole will give you a walkthrough of RStudio, so make sure you have R and RStudio downloaded, following the instructions above. Open RStudio and follow along on your own computer. Make a note of any questions you have and we can discuss them in the live session!</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/zVZK2J9hMwA" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h3 id="oop--objects-in-r">OOP &amp; Objects in R</h3>
+
+<p>Object-Oriented Programming (OOP) is the lens through which we’ll approach everything we do in R. Inherent to the principles of OOP is that everything in R is an object. In this video Cole will walk you through the basics of objects and types in R. This will become important later, and we will spent most of the live session practicing using different types of objects in R. Make a note of any questions you have and we can discuss them in the live session!</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/Ytcr2Nr6lYU" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<hr />
+<p>Please <a href="https://forms.gle/eu9LVRrNmfToRC2fA">click here</a> to fill out the post-session feedback form here! We take your feedback into account in real time, so any changes we can make to help you learn better next week we will make!</p>
+
+<h1 id="content-summary">Content Summary</h1>
+
+<embed src="https://colebrookson.github.io/r-for-biology/sessions/week1_pdf.pdf" type="application/pdf" />
+
+<h3 id="reading-data-into-r">Reading Data Into R</h3>
+
+<p>Here is a summary video of reading data into R and performing basic operations.</p>
+
+<!-- Courtesy of embedresponsively.com //-->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/HK5uXRjEers" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p><strong>At Home Practice:</strong> If you want some more practice with the concepts we’ve worked on here, try the following problems. Keep in mind that there is usually more than one way to achieve a particular result, so there is no ‘right’ way, but try and use the concepts/principles we talked about in this session.</p>
+
+<ol>
+  <li>Create a list of float values of length 10 called ‘useful_list’</li>
+  <li>Create a fake dataframe with 10 rows and 3 columns. Make one column float values called ‘useful_column’</li>
+  <li>Add the list of integers to the dataframe as a new column</li>
+  <li>Make a new column in the dataframe with the mean value of the columns ‘useful_list’ and ‘useful_column’. Call this new column ‘useful_mean’.</li>
+</ol>
+
+<p>Try and come up with a solution to this that only uses &lt;7 lines of code.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Introduction to Programming in R for Biology. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
