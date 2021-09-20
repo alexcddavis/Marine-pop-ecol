@@ -21,13 +21,16 @@ a student enrolled in the course!
 
 ### What can you expect during this course? 
 
-Good question! This course is only one course out of the three intensive courses you'll take if you're enrolled in the BMSC fall program. While this is a field station and everyone is eager to get out into the field in this beautiful location, our goal here is to provide you with a fundamental understanding of population ecology. This will involve some parts field work, some parts computational learning. During the course expect to engage in: 
+Good question! This course is only one course out of the three intensive courses you'll take if you're enrolled in the BMSC fall program. While this is a field station and everyone is eager to get out into the field in this beautiful location, our goal here is to provide you with a fundamental understanding of population ecology. 
+![image-right](https://colebrookson.github.io/marine-pop-ecol/assets/images/bamfield-2.jpeg)
+
+This will involve some parts field work, some parts computational learning. During the course expect to engage in: 
 - Lecture material
 - Some very exciting field trips!
 - Paper readings and discussion
 - Computer labs
 
-See the syllabus page for a detailed lay out of how the course is broken down and when you can expect to be doing what. In the meantime, check out this site and get familiar with how it works!
+See the syllabus page for a detailed lay out of how the course is broken down and when you can expect to be doing what. In the meantime, check out this site and get familiar with how it works!![image-left](https://colebrookson.github.io/marine-pop-ecol/assets/images/project-matrix.png)
 
 
 ### Expectations & Code of Conduct
