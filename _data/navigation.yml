@@ -3,13 +3,13 @@ main:
     url: /syllabus/
   - title: "Instructors"
     url: /instructors/
-  - title: "Contact Us"
-    url: /contact/
+  - title: "Bamfield"
+    url: /bamfield/
   - title: "Resources"
     url: /resources/
 
 Course Materials:
-  - title: Week 1
+  - title: Lecture Material
     children:
       - title: "Set up, Goals, Important Topics"
         url: /sessions/week1/
