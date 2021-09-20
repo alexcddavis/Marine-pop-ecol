@@ -94,6 +94,16 @@ defaults:
       sidebar:
         nav: "sessions"
 
+defaults:
+  # _splash
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      sidebar:
+        nav: "sessions"
+
 
 category_archive:
   type: liquid
