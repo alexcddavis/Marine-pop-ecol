@@ -61,6 +61,20 @@ plugins:
 footer:
   links:
 
+collections: 
+  lecture: 
+    output: true 
+    peramlink: /:collection/:path/
+
+defaults:
+  # _lecture
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+
 defaults:
   # _pages
   - scope:
