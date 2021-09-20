@@ -8,7 +8,7 @@ main:
   - title: "Resources"
     url: /resources/
 
-sessions:
+Course Materials:
   - title: Week 1
     children:
       - title: "Set up, Goals, Important Topics"

@@ -1,11 +1,11 @@
 ---
 layout: single
 author_profile: false
-title: "Introduction to R"
+title: "Marine Population Ecology & Dynamics"
 classes: wide
 
 sidebar:
-  nav: "sessions"
+  nav: "Course Materials"
 
 ---
 
