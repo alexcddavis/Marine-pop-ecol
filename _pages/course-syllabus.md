@@ -38,58 +38,6 @@ challenge beyond that expected in any of BMSC’s field courses. However, activi
 
 ## Evaluation 
 
-<table>
-  <tr>
-    <th align="centre">
-      <img width="366" height="0.2" align="center">
-      <p> 
-      <large>
-      Component
-      </large>
-      </p>
-    <th align="center">
-      <img width="368" height="0.2">
-      <p> 
-      <large>
-      Due Date
-      </large>
-      </p>
-    <th align="center">
-      <img width="147" height="0.2" align="center">
-      <p> 
-      <large>
-      % of Grade
-      </large>
-      </p>
-  <tr align="center">
-    <td> Species ID Assignment</td>
-    <td> 18 October 2021 @ 23:59</td>
-    <td> 15</td>
-  </tr>
-  <tr align="center">
-    <td> Paper Discussions</td>
-    <td> *see assignment details*</td>
-    <td> 20</td>
-  </tr>
-  <tr align="center">
-    <td> Population Model</td>
-    <td> 26 October 2021 @ 23:59</td>
-    <td> 25</td>
-  </tr>
-  <tr align="center">
-    <td> Biodiversity Sampling</td>
-    <td> 01 November 2021 @ 09:00</td>
-    <td> 25</td>
-  </tr>
-  <tr align="center">
-    <td> Guest Speaker Quizes</td>
-    <td> 04 November 2021 @ 12:30</td>
-    <td> 15 </td>
-  </tr>
-</table>
-<br>
-
-
 ## Grading
 
 <table>
@@ -154,22 +102,51 @@ challenge beyond that expected in any of BMSC’s field courses. However, activi
   </tr>
 <table>
 
-<html>
-<body >
-  <table border=1 width=100>
-    <tr>
-      <td>
-        Table width is 100 pixel
-      </td>
-    </tr>
-  </table>
-  <br>
-  <table border=1 width=100%>
-    <tr>
-      <td>
-        Table width is 100 %
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
+<style>
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+  }
+</style>
+
+
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Due Date</th>
+            <th>% of Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Species ID Assignment</td>
+            <td> 18 October 2021 @ 23:59</td>
+            <td> 15</td>
+        </tr>
+        <tr>
+            <td> Paper Discussions</td>
+            <td> *see assignment details*</td>
+            <td> 20</td>
+        </tr>
+        <tr>
+            <td> Population Model</td>
+            <td> 26 October 2021 @ 23:59</td>
+            <td> 25</td>
+        </tr>
+        <tr>
+            <td> Biodiversity Sampling</td>
+            <td> 01 November 2021 @ 09:00</td>
+            <td> 25</td>
+        </tr>
+        <tr>
+            <td> Guest Speaker Quizes</td>
+            <td> 04 November 2021 @ 12:30</td>
+            <td> 15 </td>
+        </tr>
+    </tbody>
+</table>
+
