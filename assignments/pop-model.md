@@ -1,5 +1,5 @@
 ---
-permalink: /pop-model/
+permalink: /assignments/pop-model/
 layout: single
 title: Population Modeling Assignment Overview
 author_profile: false
@@ -7,8 +7,6 @@ classes: wide
 sidebar:
   nav: "Course Materials"
 ---
-
-# Population Modeling Assignment Overview
 
 Population models can take many forms, but with populations we classify as age/stage-structured, building models to explicitly account for those stages is helpful. The purpose of this assignment is to introduce you to modeling stage-structured populations in the form of matrix models. This assignment has two parts. Part 1 is a brief proposal of research so that we can make sure you are on the right track. Part 2 requires you to do research on your own and build a matrix model with accompanying write up. You will: 
 
