@@ -4,6 +4,15 @@ layout: single
 title: Bamfield Marine Science Centre
 author_profile: false
 classes: wide
+excerpt: "BMSC has been supporting ocean access to coastal and marine environments
+for research and education since 1972."
+header:
+    overlay_image: /assets/images/bamfield-lab.jpg
+    author_profile: false
+    caption: "Photo credit: **BMSC**"
+    actions:
+      - label: "Learn More"
+        url: "https://www.bamfieldmsc.com/"
 sidebar:
   nav: "Course Materials"
 ---

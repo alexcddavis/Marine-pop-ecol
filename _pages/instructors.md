@@ -7,8 +7,8 @@ header:
     author_profile: false
     caption: "Photo credit: **C. Brookson**"
     actions:
-      - label: ""
-        url: "https://github.com"
+      - label: " "
+        url: ""
 classes: wide
 sidebar:
   nav: "Course Materials"
