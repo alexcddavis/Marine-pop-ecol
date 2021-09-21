@@ -4,6 +4,9 @@
 <loc>http://localhost:4000/bamfield/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/course-syllabus/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -20,9 +23,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/lectures/schedule/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/syllabus/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/_pages/contact/</loc>
