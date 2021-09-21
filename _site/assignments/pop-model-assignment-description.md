@@ -1,6 +1,6 @@
 # Population Modeling Assignment Overview
 
-Population models can take many forms, but with populations we classify as age/stage-structured, building models to explicitly account for those stages is helpful. The purpose of this assignment is to introduce you to modeling stage-structured populations in the form of matrix models. This assignment has two parts. Part 1 is a brief p proposal of research so that we can make sure you are on the right track. Part 2 requires you to do research on your own and build a matrix model with accompanying write up. You will: 
+Population models can take many forms, but with populations we classify as age/stage-structured, building models to explicitly account for those stages is helpful. The purpose of this assignment is to introduce you to modeling stage-structured populations in the form of matrix models. This assignment has two parts. Part 1 is a brief proposal of research so that we can make sure you are on the right track. Part 2 requires you to do research on your own and build a matrix model with accompanying write up. You will: 
 
 1. Select a species to analyse their population growth
 2. Report the life history of the species including stage structure 
@@ -40,17 +40,16 @@ The final report will cover all the objectives listed above. It will be a maximu
 
 ## Assessment
 
-| Compotnent      | Marks | Due Date |
+| Component      | Marks | Due Date |
 | ----------- | ----------- | ----------- |
-| Proposal      | 7       | Friday Oct. 22 @6PM |
-| Final Report   | 18        | Tuesday Oct. 26 Before class |
+| Proposal      | 7       | Friday Oct. 22 @1800 |
+| Final Report   | 18        | Tuesday Oct. 26 @0830 |
 
 ### Grading 
 An excellent assignment will:
 - Contain all the required information in each section, presented clearly and concisely without errors - All figures and tables will have appropriate captions.
 - Be carefully researched - It will include appropriate references to available literature, which are not just cited but *interpreted*.
 - Be written clearly and concisely – each paragraph will have a topic sentence that summarizes the main point of the paragraph, followed by sentences that present and analyze the evidence supporting each main point. The tone will be appropriate for a formal scientific report. 
-
 
 # Submission Details
 
