@@ -1,0 +1,43 @@
+main:
+  - title: "Syllabus"
+    url: /course-syllabus/
+  - title: "Instructors"
+    url: /instructors/
+  - title: "About Bamfield"
+    url: /bamfield/
+  - title: "Resources"
+    url: /resources/
+  - title: "Contact"
+    url: /contact/
+
+Course Materials:
+  - title: Lecture Material
+    children:
+      - title: "Lecture Schedule"
+        url: /lectures/schedule/
+      - title: "Slides & Materials"
+        url: /lectures/landing/
+  - title: Assignments
+    children:
+      - title: "Species ID Guide"
+        url: /assignments/species-id/
+      - title: "Population Model"
+        url: /assignments/pop-model/
+      - title: "Biodiversity Sampling"
+        url: /assignments/biodiv-sample/
+  - title: Readings
+    children: 
+      - title: "1 - XXXX"
+        url: /readings/reading-1/
+      - title: "2 - XXXX"
+        url: /readings/reading-2/
+      - title: "3 - XXXX"
+        url: /readings/reading-2/
+      - title: "4 - XXXX"
+        url: /readings/reading-2/
+      - title: "5 - XXXX"
+        url: /readings/reading-2/
+      - title: "6 - XXXX"
+        url: /readings/reading-2/
+      - title: "7 - XXXX"
+        url: /readings/reading-2/

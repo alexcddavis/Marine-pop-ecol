@@ -1,0 +1,131 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Marine Population Ecology & Dynamics
+email: brookson@ualberta.ca
+description: >- # this means to ignore newlines until "baseurl:"
+  Website for the Fall 2021 version of the Marine Population Ecology & Dyanamics course
+  taught at Bamfield Marine Science Centre by Dr. Alex Davis and Cole Brookson. 
+twitter_username: username
+github_username: colebrookson
+minimal_mistakes_skin: contrast
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+repository: "colebrookson/marine-pop-ecol"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+footer:
+  links:
+
+collections: 
+  lecture: 
+    output: true 
+    peramlink: /:collection/:path/
+
+defaults:
+  # _lecture
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+defaults:
+  # _sessions
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      sidebar:
+        nav: "sessions"
+
+defaults:
+  # _splash
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      sidebar:
+        nav: "sessions"
+
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+teaser: /assets/images/bamfield-1.jpg
+
+search: true
+
+# add search provider
+search_provider: algolia
+algolia: 
+  application_id: KK9WVVDQ6B
+  index_name: marine-pop-ecol
+  search_only_api_key: 1ba5a7d6c332cbba147b91b1b70a754f
+  powered_by: true
+
+# try table of contents here
+toc: true 
+toc_label: "contents"
+toc_icon: "cog"
+
