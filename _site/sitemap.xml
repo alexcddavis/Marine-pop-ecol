@@ -13,6 +13,9 @@
 <loc>http://localhost:4000/lectures/landing/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pop-model/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/resources/</loc>
 </url>
 <url>
@@ -23,9 +26,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/_pages/contact/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/assignments/pop-model-assignment-description/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/syllabus/</loc>

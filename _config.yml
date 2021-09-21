@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Introduction to Programming in R for Biology
+title: Marine Population Ecology & Dynamics
 email: brookson@ualberta.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Website for the Fall 2021 version of the Marine Population Ecology & Dyanamics course
